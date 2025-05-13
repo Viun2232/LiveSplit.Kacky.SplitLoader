@@ -95,9 +95,6 @@ namespace LiveSplit.Kacky.SplitLoader
 
         private string GetSplitFilePath(int number)
         {
-            if (number == 0)
-                return "";
-
             string searchPattern = $"*- {number}.lss";
             string basePath = Settings.BasePath;
 
